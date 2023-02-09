@@ -1,0 +1,9 @@
+/* define classes here */
+/* CANNOT DO element selectors */
+.test {
+    color: darkturquoise;
+}
+
+.cap {
+    text-align: center;
+}
