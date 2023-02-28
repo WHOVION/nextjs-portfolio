@@ -25,6 +25,7 @@ const Contact = () => {
                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk</p>
             </div>
             <div>
+                {/* to link to actual places use a tag and <a href='#' target='_blank'>balh balh</a> */}
                 <p className='uppercase pt-8'>Connect with me</p>
                 <div className='flex items-center justify-between py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
