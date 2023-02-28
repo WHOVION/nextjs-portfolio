@@ -1,0 +1,18 @@
+how to start up next.js: npm run dev
+
+rafce is better than sfc
+
+had a file in pages, _document.js and it had this inside:
+// import { Html, Head, Main, NextScript } from 'next/document'
+
+// export default function Document() {
+//   return (
+//     <Html lang="en">
+//       <Head />
+//       <body>
+//         <Main />
+//         <NextScript />
+//       </body>
+//     </Html>
+//   )
+// }
