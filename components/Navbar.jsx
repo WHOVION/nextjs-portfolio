@@ -22,8 +22,8 @@ const Navbar = () => {
             } else {
                 setShadow(false)
             }
-        }
-        window.addEventListener('scroll', handleShadow)
+        };
+        window.addEventListener('scroll', handleShadow);
     }, []);
 
   return (
@@ -35,16 +35,16 @@ const Navbar = () => {
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#skills'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#contact'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                     </Link>
                 </ul>
