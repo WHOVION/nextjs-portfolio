@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
 
              <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
-             <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
+             <ProjectItem title='Crypto' backgroundImg={netflixImg} projectUrl='/crypto' />
              <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
              <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
 
