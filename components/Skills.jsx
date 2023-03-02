@@ -42,6 +42,16 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
+                            <Image src='/../public/assets/skills/node.png' width='64' height='64'  alt='/'/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>NODE</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
                             <Image src='/../public/assets/skills/react.png' width='64' height='64'  alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -52,20 +62,10 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/tailwind.png' width='64' height='64'  alt='/'/>
+                            <Image src='/../public/assets/skills/express.png' width='64' height='64'  alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Tailwind</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src='/../public/assets/skills/github1.png' width='64' height='64'  alt='/'/>
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Github</h3>
+                            <h3>EXPRESS</h3>
                         </div>
                     </div>
                 </div>
@@ -75,17 +75,17 @@ const Skills = () => {
                             <Image src='/../public/assets/skills/mongo.png' width='64' height='64'  alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>MONGO</h3>
+                            <h3>MongoDB</h3>
                         </div>
                     </div>
                 </div>
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/node.png' width='64' height='64'  alt='/'/>
+                            <Image src='/../public/assets/skills/postgres.png' width='64' height='64'  alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Node</h3>
+                            <h3>PostgreSQL</h3>
                         </div>
                     </div>
                 </div>
@@ -96,6 +96,46 @@ const Skills = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>NEXT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/../public/assets/skills/python.png' width='64' height='64'  alt='/'/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>PYTHON</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/../public/assets/skills/git.png' width='64' height='64'  alt='/'/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>GIT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/../public/assets/skills/github1.png' width='64' height='64'  alt='/'/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>GITHUB</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src='/../public/assets/skills/tailwind.png' width='64' height='64'  alt='/'/>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>TAILWIND</h3>
                         </div>
                     </div>
                 </div>

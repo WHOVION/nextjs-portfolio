@@ -2,6 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import netflixImg from '../public/assets/projects/netflix.jpeg'
+import sfImg from '../public/assets/projects/studiofits.jpeg'
+import blImg from '../public/assets/projects/battlelofi.jpeg'
+import dImg from '../public/assets/projects/dotify.jpeg'
+import uhImg from '../public/assets/projects/ultimatehang.jpeg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -12,10 +16,10 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
-             <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
-             <ProjectItem title='Crypto' backgroundImg={netflixImg} projectUrl='/crypto' />
-             <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
-             <ProjectItem title='Netflix' backgroundImg={netflixImg} projectUrl='/netflix' />
+             <ProjectItem title='StudioFits' backgroundImg={sfImg} projectUrl='/studiofits' />
+             <ProjectItem title='BattleLofi' backgroundImg={blImg} projectUrl='/battlelofi' />
+             <ProjectItem title='dotify' backgroundImg={dImg} projectUrl='/dotify' />
+             <ProjectItem title='Ultimate Hangman' backgroundImg={uhImg} projectUrl='/ultimatehang' />
 
             </div>
         </div>
