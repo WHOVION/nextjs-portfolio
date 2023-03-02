@@ -15,24 +15,24 @@ const Main = () => {
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I seek to be in an environment where learning and personal growth is never-ending. When working on collaborative projects, I make clarity a top priority to allow everyone to be on the same page and work towards a common goal. I love teaching others when they need it, but I also love being taught myself. Helping others understand a concept better is always rewarding, and likewise, being taught a concept myself is equally fulfilling. As an experienced professional with strong communication and problem-solving skills, I bring a customer-focused approach to software engineering. 
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='https://www.linkedin.com/in/eszra-dev/' target='_blank'>
-                        <FaLinkedinIn size='30px' />
+                        <FaLinkedinIn size='35px' />
                         </a>
                    </div>
-                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='https://github.com/WHOVION' target='_blank'>
-                        <FaGithub size='30px' />
+                        <FaGithub size='35px' />
                         </a>
                    </div>
-                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='https://www.instagram.com/eszra_j_s/' target='_blank'>
-                        <BsInstagram size='30px' />
+                        <BsInstagram size='35px' />
                         </a>
                    </div>
-                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='https://drive.google.com/file/d/1K6AqXbntzWWZ7Jrr7izwA2LeaXTcu0jN/view?usp=sharing' target='_blank'>
-                        <GrDocumentPdf size='30px' />
+                        <GrDocumentPdf size='35px' />
                         </a>
                    </div>
                 </div>

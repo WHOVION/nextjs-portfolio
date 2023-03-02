@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import {BsInstagram} from 'react-icons/bs'
 import Link from 'next/link'
 
 const Contact = () => {
@@ -17,29 +18,32 @@ const Contact = () => {
     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
         <div className='lg:p-4 h-full'>
             <div>
-                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/about.jpeg' alt='/' width='400' height='0' />
+                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/contact.jpeg' alt='/' width='400' height='0' />
             </div>
             <div>
-                <h2 className='py-2'>Name here</h2>
-                <p>Front-end Developer</p>
-                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk</p>
+                <h2 className='py-2'>Eszra Jimenez-Suselo</h2>
+                <p>Full-Stack Developer</p>
+                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
             </div>
             <div>
                 {/* to link to actual places use a tag and <a href='#' target='_blank'>balh balh</a> */}
                 <p className='uppercase pt-8'>Connect with me</p>
-                <div className='flex items-center justify-between py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn />
+                <div className='flex items-center justify-around py-4'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a href='https://www.linkedin.com/in/eszra-dev/' target='_blank'>
+                            <FaLinkedinIn size='35px' />
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub />
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a href='https://github.com/WHOVION' target='_blank'>
+                            <FaGithub size='35px' />
+                        </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                    </div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <a href='https://www.instagram.com/eszra_j_s/' target='_blank'>
+                            <BsInstagram size='35px' />
+                        </a>
+                   </div>
                 </div>
             </div>
         </div>
