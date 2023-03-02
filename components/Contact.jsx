@@ -22,6 +22,8 @@ const Contact = () => {
                 <h2 className='py-2'>Eszra Jimenez-Suselo</h2>
                 <p>Full-Stack Developer</p>
                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                <p className='py-4'>Email: eszrajs@gmail.com</p>
+                <p className='py-4'>Phone: 949-478-9647</p>
             </div>
             <div>
                 <p className='uppercase pt-8'>Connect with me</p>
@@ -47,7 +49,7 @@ const Contact = () => {
     </div>
 
 {/* right */}
-    <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+    {/* <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
         <div className='p-4'>
             <form>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -75,7 +77,7 @@ const Contact = () => {
                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
             </form>
         </div>
-    </div>
+    </div> */}
         </div>
             <div className='flex justify-center py-12'>
                 <Link href='/'>

@@ -41,12 +41,12 @@ const Navbar = () => {
         };
         window.addEventListener('scroll', handleShadow);
     }, []);
-
+// 125 50
   return (
     <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <Image src='/../public/assets/skills/css.png' alt='/' width='125' height='50' />
+                <Image src='/../public/assets/skills/namelogo.png' alt='/' width='125' height='50' />
             </Link>
             <div>
                 <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Link href='/'>
-                            <Image onClick={() => setNav(false)} src='/../public/assets/skills/css.png' width='87' height='35' alt='/' />
+                            <Image onClick={() => setNav(false)} src='/../public/assets/skills/namelogo.png' width='87' height='35' alt='/' />
                         </Link>
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose />

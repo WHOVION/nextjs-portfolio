@@ -10,7 +10,7 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Lets build something together</p>
-                <h1 className='py-4 text-gray-700'>Hi, I'm <span className='text-[#5651e5]'>Eszra</span></h1>
+                <h1 className='py-4 text-gray-700'>Hi, I'm <span className='text-[#5651e5]'>Eszra J-S</span></h1>
                 <h1 className='py-4 text-gray-700'>A Full-Stack Developer</h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I seek to be in an environment where learning and personal growth is never-ending. When working on collaborative projects, I make clarity a top priority to allow everyone to be on the same page and work towards a common goal. I love teaching others when they need it, but I also love being taught myself. Helping others understand a concept better is always rewarding, and likewise, being taught a concept myself is equally fulfilling. As an experienced professional with strong communication and problem-solving skills, I bring a customer-focused approach to software engineering. 
                 </p>
