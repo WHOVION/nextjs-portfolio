@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import netflixImg from '../public/assets/projects/netflix.jpeg'
 import sfImg from '../public/assets/projects/studiofits.jpeg'
 import blImg from '../public/assets/projects/battlelofi.jpeg'
 import dImg from '../public/assets/projects/dotify.jpeg'

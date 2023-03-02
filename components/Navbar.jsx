@@ -2,9 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {React, useState, useEffect} from 'react'
 import { useRouter } from 'next/router'
-import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu,} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 
 
@@ -136,36 +135,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-{/* <div className='rounded-full shadow-lg shadow-gray-400 p-1.5 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <a href='https://www.instagram.com/eszra_j_s/' target='_blank'>
-                        <BsInstagram size='35px' />
-                        </a>
-                   </div> */}
-
-
-
-
-// // import Link from next
-// import Link from 'next/link'
-
-// const Navbar = () => {
-//     return ( 
-//         <nav>
-//             <Link href='/'>
-//                 {/* links take any child components */}
-//                 Home
-//             </Link>
-
-//             <Link href='about'>
-//                 About me
-//             </Link>
-
-//             {/* outside sources use regular a tags */}
-//             {/* blank code opens new tab */}
-//             <a href='#' target='_blank'>balh balh</a>
-//         </nav>
-//      );
-// }
- 
-// export default Navbar;
