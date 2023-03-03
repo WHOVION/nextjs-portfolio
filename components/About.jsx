@@ -21,7 +21,8 @@ const About = () => {
                 </Link>
             </div>
             <div className='h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className='rounded-xl' src='/../public/me.jpeg' alt='/' width='250' height='0' />
+                <Image className='rounded-xl' src='/me.png' alt='/' width='250' height='0' />
+                {/* <Image className='rounded-xl' src='/../public/me.jpeg' alt='/' width='250' height='0' /> */}
             </div>
         </div>
     </div>

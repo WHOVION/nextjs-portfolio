@@ -1,8 +1,13 @@
 import React from 'react'
-import sfImg from '../public/assets/projects/studiofits.jpeg'
-import blImg from '../public/assets/projects/battlelofi.jpeg'
-import dImg from '../public/assets/projects/dotify.jpeg'
-import uhImg from '../public/assets/projects/ultimatehang.jpeg'
+import sfImg from '../public/studiofits.jpeg'
+import blImg from '../public/battlelofi.jpeg'
+import dImg from '../public/dotify.jpeg'
+import uhImg from '../public/ultimatehang.jpeg'
+// {/* src='/./assets/skills/namelogo.png'  */}
+// import sfImg from '../public/assets/projects/studiofits.jpeg'
+// import blImg from '../public/assets/projects/battlelofi.jpeg'
+// import dImg from '../public/assets/projects/dotify.jpeg'
+// import uhImg from '../public/assets/projects/ultimatehang.jpeg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
