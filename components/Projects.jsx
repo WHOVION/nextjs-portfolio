@@ -1,8 +1,8 @@
 import React from 'react'
-import sfImg from '../public/studiofits.jpeg'
-import blImg from '../public/battlelofi.jpeg'
-import dImg from '../public/dotify.jpeg'
-import uhImg from '../public/ultimatehang.jpeg'
+import sfImg from '../public/studiofits.png'
+import blImg from '../public/battlelofi.png'
+import dImg from '../public/dotify.png'
+import uhImg from '../public/ultimatehang.png'
 // {/* src='/./assets/skills/namelogo.png'  */}
 // import sfImg from '../public/assets/projects/studiofits.jpeg'
 // import blImg from '../public/assets/projects/battlelofi.jpeg'

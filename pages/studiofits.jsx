@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/legacy/image#priority'
 import Link from 'next/link'
-import sfImg from '../public/assets/projects/studiofits.jpeg'
+import sfImg from '../public/studiofits.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 
 const studiofits = () => {

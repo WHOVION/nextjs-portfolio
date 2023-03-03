@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/legacy/image'
 import Link from 'next/link'
-import blImg from '../public/assets/projects/battlelofi.jpeg'
+import blImg from '../public/battlelofi.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 
 const battlelofi = () => {

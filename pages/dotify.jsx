@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/legacy/image'
 import Link from 'next/link'
-import dImg from '../public/assets/projects/dotify.jpeg'
+import dImg from '../public/dotify.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 
 const dotify = () => {

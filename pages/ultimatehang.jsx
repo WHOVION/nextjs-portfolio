@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/legacy/image'
 import Link from 'next/link'
-import uhImg from '../public/assets/projects/ultimatehang.jpeg'
+import uhImg from '../public/ultimatehang.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 
 const ultimatehang = () => {
