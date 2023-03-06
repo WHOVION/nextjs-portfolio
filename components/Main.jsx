@@ -31,7 +31,7 @@ const Main = () => {
                         </a>
                    </div>
                    <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <a href='https://drive.google.com/file/d/1K6AqXbntzWWZ7Jrr7izwA2LeaXTcu0jN/view?usp=sharing' target='_blank'>
+                        <a href='https://drive.google.com/file/d/1ExlmM8UXRbKpCHXtFb94Ohs47UiCVnhy/view?usp=sharing' target='_blank'>
                         <GrDocumentPdf size='35px' />
                         </a>
                    </div>
