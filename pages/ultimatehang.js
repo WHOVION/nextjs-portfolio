@@ -21,6 +21,11 @@ const ultimatehang = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>Ultimate Hangman is not your typical hangman game. Ultimate Hangman tests not only your knowledge, but also your Under-Pressured skills as well. Now you may be asking how a simple game like hangman puts you under pressure. Well I'll tell you. In normal hangman, your only goal is to guess the word with a a max-amount of tries. Ultimate Hangman not only has a max amount of tries, but also a TIMER running down once you click a letter. If the timer runs out or you lose all your lives, YOU LOSE. Sounds easy? Give it shot.</p>
+                <ul>
+                  <li>- First Project using only vanilla html, css, javascript</li>
+                  <li>- Learned how functions work and when a certain function should be used</li>
+                  <li>- Big learning experience to help build programming mindset and foundation</li>
+                </ul>
                 <a href='https://whovion.github.io/Ultimate-Hangman/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 </a>

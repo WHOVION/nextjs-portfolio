@@ -21,6 +21,11 @@ const dotify = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>Dotify is a knockoff version of another popular music app that I can't name for legal reasons. When you make an account and log into dotify, you will get a list of the most up to date top 100 songs from all genres. As a user, you will be able to see details of each song(Song name, Artist, Genre, Price) and be able to favorite any song and add/remove songs on your favorites playlist. Unfortunetly, the app doesn't support previews at this time so best way to hear the song is looking it up on Youtube. Told you, knockoff.</p>
+                <ul>
+                  <li>- Implemented Apple Music API(using axios)</li>
+                  <li>- Users are able to CRUD songs from API and add songs to their favorites</li>
+                  <li>- Used MVC pattern. Server side rendering</li>
+                </ul>
                 <a href='https://deploy-dotify.herokuapp.com/' target='_blank'>
                   <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 </a>

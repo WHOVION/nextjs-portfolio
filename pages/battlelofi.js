@@ -21,6 +21,11 @@ const battlelofi = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>Welcome to BattleLo-Fi, where you and your mates will never miss out on the next gaming session. Plan, organize and keep in touch with what, where and when. Keep it casual when and set up parties, or step it up and put together a friendly tournament. Collaborative Project.</p>
+                <ul>
+                  <li>- Implemented User Auth so only users logged in can CRUD events</li>
+                  <li>- First collaborative project. Hands on experience with Pull request from a branch, Resolving merge conflicts</li>
+                  <li>- Learned how NoSql database works, how to handle JSON-like documents and how to CRUD it</li>
+                </ul>
                 <a href='https://battlelofi.netlify.app/' target='_blank'>
                   <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 </a>
