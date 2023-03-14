@@ -23,9 +23,9 @@ const studiofits = () => {
                 <p>StudioFits is a new innovative form of technology used to advance fasion. This millon dollar software is a clothing app designed for users to keep track of their closet. What better way but to have StudioFits to keep track of all of your clothes? Imagine a lifestyle without losing socks and t-shirts. Collaborative Project.
                 </p>
                 <ul>
-                  <li>- Implemented User Auth so only users logged in can CRUD their closet</li>
-                  <li>- Implemented filter functions for users to filter clothing pieces by 'Type' or 'Name'</li>
-                  <li>- Project was more focused on getting more proficient with React. Practiced implementing more re-usable components</li>
+                  <li>- Implemented a secure and reliable user authentication system, ensuring that only authorized users could manage their closets with CRUD functionality</li>
+                  <li>- Successfully optimized filtering, resulting in significantly faster load times and more efficient clothing filtering</li>
+                  <li>- Achieved our project goals, which were focused on improving our proficiency with React</li>
                 </ul>
                 <a href='#'>
                   <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
