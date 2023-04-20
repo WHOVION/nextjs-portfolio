@@ -56,7 +56,7 @@ const Skills = () => {
                             <Image src='/react.png' width='64' height='64'  alt='/'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>REACT</h3>
+                            <h3>REACT/NATIVE</h3>
                         </div>
                     </div>
                 </div>
